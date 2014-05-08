@@ -1,0 +1,5 @@
+Spader!
+----------------
+
+Scorebaord for Spades.
+
