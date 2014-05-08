@@ -7,7 +7,124 @@
  </head>
 
  <body>
-  
+  <div id="header">
+   <h1>SPADER</h1>
+   <span id="header_sideframe">rohan@rohanprabhu.com, v0.1</span>
+   <div class="clears"></div>
+  </div>
+
+  <div id="holder">
+   <div id="current_game">
+    <div id="cg_label">
+     CURRENT<br />
+     ROUND
+    </div>
+    
+    <div class="cg_widgets">
+     <div id="ns_score_widget" class="score_widget">
+
+      <div id="ns_score_label" class="score_label">
+       <div id="score_label_spacer" class="cg_widget_top_bar">
+       </div>
+       <div id="ns_score_label_content" class="cg_widget_label">
+        N/S
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget player_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+        <span class="player_order">*</span>
+        <span class="player_name">PlayerN</span><span class="player_direction">N</span>
+       </div>
+       <div class="player_bid">
+         5
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget player_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+        <span class="player_order">2</span>
+        <span class="player_name">PlayerS</span><span class="player_direction">S</span>
+       </div>
+       <div class="player_bid">
+        Nil
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget team_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+           <span class="player_name">Team</span><span class="player_direction">NS</span>
+       </div>
+       <div class="player_bid team_bid">
+        5N
+       </div>
+      </div>
+
+      <div class="clears"></div>
+
+     </div>
+     <div class="clears"></div>
+    </div>
+
+    <div class="cg_widgets">
+     <div id="ns_score_widget" class="score_widget">
+
+      <div id="ns_score_label" class="score_label">
+       <div id="score_label_spacer" class="cg_widget_top_bar">
+       </div>
+       <div id="ns_score_label_content" class="cg_widget_label">
+        E/W
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget player_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+        <span class="player_order">1</span>
+        <span class="player_name">PlayerE</span><span class="player_direction">E</span>
+       </div>
+       <div class="player_bid">
+         4
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget player_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+        <span class="player_order">3</span>
+        <span class="player_name">PlayerW</span><span class="player_direction">W</span>
+       </div>
+       <div class="player_bid">
+        3
+       </div>
+      </div>
+
+      <div id="ns_score_left" class="score_widget team_score_widget">
+       <div id="north_player_name" class="cg_widget_top_bar player_top_bar">
+           <span class="player_name">Team</span><span class="player_direction">EW</span>
+       </div>
+       <div class="player_bid team_bid">
+        7
+       </div>
+      </div>
+
+      <div class="clears"></div>
+
+     </div>
+     <div class="clears"></div>
+    </div>
+
+    <div id="broken_spades_notif" class="cg_widgets broken_spades_notif_notbroken">
+     &spades;
+    </div>
+
+    <div class="clears"></div>
+   </div>
+
+   <div id="score_panel">
+    <div id="main_scoreboard"></div>
+    <div id="scoreboard_summary"></div>
+   </div>
+
+  </div>
  </body>
 </html>
 

@@ -1,0 +1,126 @@
+body, table, div, p, span {
+    margin: 0 0 0 0;
+}
+
+body {
+    font-family: "Optima";
+}
+
+#header > h1 {
+    font-family: Cochin;
+    font-size: 41pt;
+    margin: 4pt 4pt 4pt 4pt;
+    float: left;
+}
+
+#header {
+    padding: 1pt;
+    border-bottom: 3px solid #323232;
+    width: 100%;
+}
+
+#header > #header_sideframe {
+    float: right;
+    font-size: 8pt;
+    padding: 3pt;
+}
+
+#current_game {
+    background: #290f0a;
+    border-bottom: 2px solid #4D2513;
+}
+
+.clears {
+    clear: both;
+}
+
+#cg_label {
+    font-size: 17pt;
+    text-align: right;
+    border-right: 2px solid #4d2513;
+    float: left;
+    padding-top: 13pt;
+    padding-bottom: 13pt;
+    padding-right: 5pt;
+    color: #663219;
+}
+
+.score_widget {
+    float: left;
+}
+
+.cg_widget_label {
+    font-size: 40pt;
+    margin-left: 5pt;
+    border-right: 2px solid #4D2513;
+    padding-right: 4pt;
+}
+
+.cg_widget_top_bar {
+    height: 19pt;
+    font-size: 17pt;
+    border-bottom: 2px solid #4D2513;
+    border-right: 2px solid #4D2513;
+    padding-right: 5pt;
+    padding-left: 5pt;
+}
+
+.cg_widgets {
+    color: #DD9976;
+    float: left;
+    border-right: 2px solid #4D2513;
+}
+
+.player_order {
+    float: left;
+    border-right: 2px solid #4D2513;
+    padding-right: 5pt;
+}
+
+.score_label {
+    float: left;
+}
+
+.player_name {
+    float: left;
+    padding-left: 5pt;
+}
+
+.player_direction {
+    float: right;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.player_score_widget {
+    width: 180px;
+}
+
+.team_bid {
+    background: #622418;
+}
+
+#broken_spades_notif {
+    text-align: center;
+    font-size: 54pt;
+    border-right: none;
+    float: none;
+}
+
+.broken_spades_notif_broken {
+    color: #DD9976;
+}
+
+.broken_spades_notif_notbroken {
+    color: #4D2513;
+}
+
+.team_score_widget {
+    width: 140px;
+}
+
+.player_bid {
+    font-size: 40pt;
+    text-align: center;
+    border-right: 2px solid #4D2513;
+}
