@@ -16,7 +16,6 @@ body {
 #header {
     padding: 1pt;
     border-bottom: 3px solid #323232;
-    width: 100%;
 }
 
 #header > #header_sideframe {
@@ -124,3 +123,95 @@ body {
     text-align: center;
     border-right: 2px solid #4D2513;
 }
+
+#scoreboard_summary {
+    float: right;
+    width: 29%; 
+    border-left: 2px solid #4D2513;
+    height: 100%;
+}
+
+#main_scoreboard {
+    float: left;
+    width: 70%;
+}
+
+#score_summ_scwidget {
+    padding-bottom: 14pt;
+    padding-top: 14pt;
+    background: #DD9976;
+}
+
+.score_summ_section_title {
+    background: #290f0a;
+    padding: 4pt;
+    border-bottom: 2px solid #4D2513;
+    color: #DD9976;
+}
+
+.bags_display {
+    font-size: 14pt;
+    padding-bottom: 5pt;
+    margin-top: -9pt;
+    font-weight: normal;
+}
+
+.score_summ {
+    float: left;
+    width: 50%;
+}
+
+.score_summ_title {
+    font-size: 14pt;
+    text-align: right;
+}
+
+.score_summ_score {
+    font-size: 60pt;
+    font-weight: bold;
+    text-align: right;
+}
+
+.score_summ_score, .score_summ_title, .score_summ_players {
+    padding-right: 10pt;
+    padding-left: 10pt;
+    border-right: 1px solid #000000;
+}
+
+#ew_score_summ_title, #ew_score_summ_score, #ew_score_summ_players {
+    text-align: left;
+    border-left: 1px solid #000000;
+    border-right: none;
+}
+
+.score_summ_players {
+    text-align: right;
+}
+
+#game_rules > ul {
+    margin-left: 0pt;
+    padding-left: 0pt;
+}
+
+.key_ref {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 2pt;
+}
+
+.key_ref_key {
+    font-size: 51pt;
+    margin-top: -5pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.key_ref_desc {
+    font-size: 11pt;
+    margin-top: -7pt;
+    text-align: center;
+}
+
